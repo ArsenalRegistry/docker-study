@@ -1,6 +1,8 @@
 ```
 docker login ghcr.io -u ArsenalRegistry
 
+# 뒤에 11값은 지워야합니다.
+
 password: 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11
 
 docker images -a

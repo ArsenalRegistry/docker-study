@@ -7,6 +7,6 @@ docker images -a
 
 docker tag <image_id> ghcr.io/arsenalregistry/webserver-사번:latest
 
-docker push ghcr.io/arsnealRegistry/webserver-사번:latest
+docker push ghcr.io/arsenalregistry/webserver-사번:latest
 
 ```

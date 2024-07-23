@@ -2,6 +2,7 @@
 # docker run
 ls /dbdata
 docker run -d --name db -v /dbdata:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=pass mysql:latest
+docker ps
 ```
 ```
 # db pod terminal

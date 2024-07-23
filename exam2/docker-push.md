@@ -1,5 +1,5 @@
 ```
-docker login ghcr.io -u ArsenalRegistry -p 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11
+docker login ghcr.io -u ArsenalRegistry -p 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
 
 # 뒤에 11값은 지워야합니다.
 

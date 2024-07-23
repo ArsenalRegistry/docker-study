@@ -10,7 +10,7 @@ mysql -u root -ppass
 ```
 ```
 # In pod Termninal
-
+show databases;
 CREATE DATABASE ktds;
 show databases;
 exit
@@ -19,4 +19,5 @@ exit
 # Out pod Terminal(host)
 ls /dbdata
 docker rm -f db
+ls /dbdata
 ```

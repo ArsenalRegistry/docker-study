@@ -1,18 +1,7 @@
-
-
-
-
-
-
-
-
-
-
-
 # 1
 docker search nginx # nginx 이미지 찾기 
 
-# 5
+
 ls /var/lib/docker/overlay2
 docker pull nginx # pull image
 ls /var/lib/docker/overlay2 # check layer

@@ -10,7 +10,7 @@ curl localhost:80
 ```
 ```
 #7
-docker run -d -p 8080:8080 --name web1 hellojs
+docker run -d -p 8080:8080 --name web2 hellojs
 docker ps -a
 curl localhost:8080
 ```

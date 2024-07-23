@@ -14,7 +14,7 @@ docker rm c1
 
 ```
 docker run -c 2048 --name cload1 -d stress:latest
-docker run --name cload2 -d stress:latest
+docker run -c 1024 --name cload2 -d stress:latest
 docker run -c 512 --name cload3 -d stress:latest
 docker run -c 512 --name cload4 -d stress:latest
 ```

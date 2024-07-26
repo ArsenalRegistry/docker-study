@@ -1,8 +1,8 @@
 **각 실습에 맞는 번호로 들어가서 폴더 구조 및 실행 파일 확인**
 
-```
-# 아래는 도커 설치 명령어(https://docs.docker.com/engine/install/ubuntu/)
-```
+
+**아래는 도커 설치 명령어(https://docs.docker.com/engine/install/ubuntu/)**
+
 
 ```
 sudo apt-get update

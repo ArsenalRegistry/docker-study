@@ -37,6 +37,8 @@ sudo apt-get update
 ```
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 ```
-
+```
+docker version
+```
 
 **각 실습에 맞는 번호로 들어가서 폴더 구조 및 실행 파일 확인**

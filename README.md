@@ -1,3 +1,5 @@
+**각 실습에 맞는 번호로 들어가서 폴더 구조 및 실행 파일 확인**
+
 **도커 설치**
 https://docs.docker.com/engine/install/ubuntu/
 
@@ -41,4 +43,4 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin 
 docker version
 ```
 
-**각 실습에 맞는 번호로 들어가서 폴더 구조 및 실행 파일 확인**
+

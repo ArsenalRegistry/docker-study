@@ -1,5 +1,5 @@
 ```
-docker login ghcr.io -u ArsenalRegistry -p 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1
+docker login ghcr.io -u ArsenalRegistry -p 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1 # 뒤에 숫자 1 제외
 ```
 ```
 docker images -a

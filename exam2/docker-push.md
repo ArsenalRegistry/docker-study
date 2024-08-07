@@ -1,5 +1,5 @@
 ```
-docker login ghcr.io -u ArsenalRegistry -p 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
+docker login ghcr.io -u ArsenalRegistry -p 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1
 ```
 ```
 docker images -a

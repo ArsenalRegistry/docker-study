@@ -12,8 +12,8 @@ ls /var/lib/docker/overlay2 # check layer
 
 ```
 # 3
-docker run --name web –d –p 80:80 nginx
-docker ps –a 
+docker run --name web -d -p 80:80 nginx
+docker ps -a 
 curl localhost:80
 ```
 

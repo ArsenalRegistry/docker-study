@@ -5,8 +5,8 @@ docker login testcoeregistry.azurecr.io -u testCoeRegistry -p z+XVGtxTPSAGhDxsTj
 docker images -a
 ```
 ```
-docker tag <image_id> testcoeregistry.azurecr.io/testCoeRegistry/8사번/webserver:latest
+docker tag <image_id> testcoeregistry.azurecr.io/8사번/webserver:latest
 ```
 ```
-docker push testcoeregistry.azurecr.io/testCoeRegistry/8사번/webserver:latest
+docker push testcoeregistry.azurecr.io/8사번/webserver:latest
 ```

@@ -1,12 +1,9 @@
 const http = require('http');
-const os = require('os');
-console.log("Test Server starting...");
 
-var handler = function(request, response) {
-	console.log("Received request from " + request.connection.remoteAddress);
-	response.writeHead(200);
-	response.end("Container Hostname: " + os.hostname() + "\n");
-};
+const server = http.createServer((req, res) => {
+        res.writeHead(200, {'Content-Type': 'text/plain'});
+        res.end('Hello, World!\n');
+});
 
-var www = http.createServer(handler);
-www.listen(8080);
+server.listen(8080);
+
